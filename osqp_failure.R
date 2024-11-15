@@ -1,5 +1,7 @@
 library(CVXR)
 
+set.seed(456)
+
 w <- Variable(36, cols = 1) # number of weight coefficients should also be adjusted for a different dataset
 b <- Variable(1)
 
